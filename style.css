@@ -1,0 +1,112 @@
+/*Feuille de style pour CV numérique*/
+/*Je dois remercier Alice pour le gradient, je trouve que c'est plus agréable à régarder et moins agressif pour les yeux*/
+/*@font-face {
+  font-family: "Louis George Cafe";
+  src: url('polices/Louis George Cafe Bold Italic.ttf') format('truetype'),
+  src: url('polices/Louis George Cafe Bold.ttf') format('truetype'),
+  src: url('polices/Louis George Cafe Italic.ttf') format('truetype'),
+  src: url('polices/Louis George Cafe Light Italic.ttf') format('truetype'),
+  src: url('polices/Louis George Cafe Light.ttf') format('truetype'),
+  src: url('Louis George Cafe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+html {
+  background: rgb(30,203,205);
+  background: radial-gradient(circle, rgba(30,203,205,1) 0%, rgba(34,191,193,1) 100%);
+}
+/*sans-serif pour le contenu en ligne*/
+body {
+  font-family: Louis George Cafe;
+  font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+  color: #003399;
+}
+header{
+  text-align: center;
+  font-family: Louis George Cafe;
+  font-style: normal;
+  font-weight: bold;
+
+}
+h1 {
+  font-size: 50px;
+}
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+/*faut trouver un moyen d'insérer les icônes LinkedIn et GitHub à gauche des liens et mettre les liens en bloc plutôt qu'inline*/
+/*je ne trouve pas comment mettre les icones à droite et hors des <section>*/
+nav {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  border: border: 1rem solid;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.linkedin{
+  width: 15%;
+  height: 15%;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+
+}
+.github{
+  width: 30%;
+  height: 30%;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+/*a:hover {
+  text-decoration: none;
+}
+/*première essai de la propriété visited pour un lien*/
+/*a:visited {
+  background-color: #3E3E3E;
+  border-color: #3E3E3E;
+  color: #3E3E3E;
+}
+a:active{
+  background-color: white;
+}*/
+#xppro, #formation {
+  display: inline;
+  text-align: justify;
+  line-height: 1.6;
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #003399;
+}
+p {
+  font-size: 20px;
+  font-weight: bold
+  color: ivory;
+}
+aside {
+
+}
+/*pour effacer les puces sur <ul>*/
+ul {
+  font-size: 17px;
+  list-style-type: none;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  font-family: Louis George Cafe;
+  font-style: italic;
+}
