@@ -1,6 +1,7 @@
 /*Feuille de style pour CV numérique*/
 /*Je dois remercier Alice pour le gradient, je trouve que c'est plus agréable à régarder et moins agressif pour les yeux*/
-/*@font-face {
+/*Je n'arrive pas encore à intégrer la police
+@font-face {
   font-family: "Louis George Cafe";
   src: url('polices/Louis George Cafe Bold Italic.ttf') format('truetype'),
   src: url('polices/Louis George Cafe Bold.ttf') format('truetype'),
@@ -28,7 +29,6 @@ header{
   font-family: Louis George Cafe;
   font-style: normal;
   font-weight: bold;
-
 }
 h1 {
   font-size: 50px;
@@ -46,12 +46,12 @@ nav {
   padding-left: .5rem;
   margin-left: .5rem;
   float: right;
-  border: border: 1rem solid;
+  border: 1rem solid;
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
 }
-.linkedin{
+.linkedin {
   width: 15%;
   height: 15%;
   padding-top: 50px;
@@ -92,7 +92,7 @@ h3 {
 }
 p {
   font-size: 20px;
-  font-weight: bold
+  font-weight: bold;
   color: ivory;
 }
 aside {
